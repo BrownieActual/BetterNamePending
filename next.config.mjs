@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: "/betternamepending",
+    basePath: "/BetterNamePending",
     output: 'export',
     reactStrictMode: true,
 }
