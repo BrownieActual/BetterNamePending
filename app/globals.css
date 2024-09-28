@@ -17,11 +17,44 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-poppins);
+}
+
+#navbar {
+  display: flex;
+  gap: 10px;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  .text-24 {
+    @apply text-[24px] leading-[30px];
+  }
+
+  .text-30 {
+    @apply text-[30px] leading-[38px];
+  }
+
+  .text-36 {
+    @apply text-[36px] leading-[44px];
+  }
+
+  .header-box {
+    display: flex flex-col gap-2;
+  }
+
+  .header-box-title {
+    @apply text-36 lg:text-30 font-semibold text-white;
+  }
+
+  .text-white {
+    color: white;
+  }
+
+  .text-gray {
+    color: gray;
   }
 }
