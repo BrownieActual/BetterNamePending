@@ -22,8 +22,9 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  //TODO: Create Theme hook to switch light and dark mode
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <body
         className={`${poppins.variable} antialiased h-screen flex flex-col`}
       >
