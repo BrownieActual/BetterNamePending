@@ -1,5 +1,5 @@
-import PageContent from "@/components/base/PageContent";
-import JumboTron from "@/components/base/JumboTron";
+import PageContent from "@/src/components/base/PageContent";
+import JumboTron from "@/src/components/base/JumboTron";
 
 export default function Page() {
   return (
