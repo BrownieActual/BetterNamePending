@@ -5,12 +5,12 @@ import Link from "next/link";
 const JumboTron = ({ title, description, navigation }: JumboTronProps) => {
   return (
     <section>
-      <div className="py-8 px-4 mx-auto text-center lg:py-16 border-white border-2 rounded-2xl w-full">
+      <div className="py-8 px-4 mx-auto text-center lg:py-16 border-white border-2 rounded-2xl w-full bg-grey]">
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl">
           {title}
         </h1>
         {description && (
-          <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400">
+          <p className="mb-8 text-lg font-normal text-white lg:text-xl sm:px-16 lg:px-48">
             {description}
           </p>
         )}
@@ -32,9 +32,9 @@ const JumboTron = ({ title, description, navigation }: JumboTronProps) => {
               >
                 <path
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   d="M1 5h12m0 0L9 1m4 4L9 9"
                 />
               </svg>

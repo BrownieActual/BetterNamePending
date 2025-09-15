@@ -5,8 +5,8 @@ export default function Home() {
     <div className="flex justiy-center">
       <JumboTron
         title="Welcome"
-        description="An experimental playground for my experimental projects"
-        navigation={{ title: "Projects", path: "" }}
+        description="A Sandbox for my experimental projects"
+        navigation={{ title: "Projects", path: "/projects" }}
       />
     </div>
   );
